@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:TUTAL;Faruk;;;
+FN:Faruk TUTAL
+ORG:Tokarev Arms
+TITLE:Managing Director
+TEL;TYPE=CELL;TYPE=VOICE;TYPE=pref:+905447893442
+EMAIL;TYPE=INTERNET;TYPE=WORK;TYPE=pref:faruk.tutal@tokarevarms.com
+URL:https://tokarevarms.com
+ADR;TYPE=WORK;PREF:;;Hamidiye Neighborhood. Mimar Sinan AVE No:5;Beyşehir;KONYA;Turkey
+END:VCARD

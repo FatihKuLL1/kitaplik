@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Tokarev ARMS | Faruk TUTAL</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: #111;
+            width: 100%;
+            max-width: 360px;
+            padding: 45px 25px;
+            border-radius: 24px;
+            text-align: center;
+            border: 1px solid #222;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+        }
+        /* Dikdörtgen Logo İçin Özel Alan */
+        .logo-container {
+            width: 100%;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        .company-logo {
+            max-width: 240px; /* Dikdörtgen logoya göre geniş tutuldu */
+            height: auto;
+            object-fit: contain;
+        }
+        h1 { 
+            font-size: 28px; 
+            margin: 10px 0 5px 0; 
+            letter-spacing: 0.5px;
+            font-weight: 800;
+        }
+        .title { 
+            color: #888; 
+            margin-bottom: 35px; 
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 400;
+        }
+        /* Ana Buton: Add to Contacts */
+        .btn-main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            color: #000;
+            text-decoration: none;
+            padding: 18px;
+            border-radius: 14px;
+            font-weight: 800;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            font-size: 16px;
+        }
+        .btn-main i { margin-right: 12px; font-size: 18px; }
+        .btn-main:hover { 
+            background: #d4d4d4; 
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(255,255,255,0.1);
+        }
+        /* İletişim Listesi */
+        .contact-list {
+            text-align: left;
+            border-top: 1px solid #222;
+            padding-top: 10px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: center;
+            color: #eee;
+            text-decoration: none;
+            padding: 15px 0;
+            font-size: 14px;
+            border-bottom: 1px solid #222;
+            transition: 0.2s;
+        }
+        .contact-item i {
+            width: 35px;
+            color: #666;
+            font-size: 18px;
+        }
+        .contact-item:last-child { border-bottom: none; }
+        .contact-item:hover { color: #fff; }
+        .contact-item:hover i { color: #fff; }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div class="logo-container">
+        <img src="tokarev-logo.png" alt="Tokarev Arms" class="company-logo">
+    </div>
+    
+    <h1>Faruk TUTAL</h1>
+    <p class="title">Managing Director</p>
+
+<a href="Faruk_Tutal.vcf?v=1" download="Faruk_Tutal.vcf" class="btn-main">
+    <i class="fas fa-user-plus"></i> ADD TO CONTACTS
+</a>
+
+    <div class="contact-list">
+        <a href="tel:+905447893442" class="contact-item">
+            <i class="fas fa-phone-alt"></i> +90 544 789 34 42
+        </a>
+        <a href="mailto:faruk.tutal@tokarevarms.com" class="contact-item">
+            <i class="fas fa-envelope"></i> faruk.tutal@tokarevarms.com
+        </a>
+        <a href="https://tokarevarms.com" target="_blank" class="contact-item">
+            <i class="fas fa-globe"></i> www.tokarevarms.com
+        </a>
+        <a href="https://maps.google.com/?q=Hamidiye+Mahallesi+Mimar+Sinan+Caddesi+No:5+Beyşehir+Konya" target="_blank" class="contact-item">
+            <i class="fas fa-map-marker-alt"></i> Hamidiye Neighborhood. Mimar Sinan AVE No:5 Beyşehir/KONYA
+        </a>
+    </div>
+</div>
+
+</body>
+</html>
